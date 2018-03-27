@@ -3,11 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Interfaz;
+package proyecto1_programacionii;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 
 /**
  * FXML Controller class
@@ -15,13 +22,17 @@ import javafx.fxml.Initializable;
  * @author Nicole
  */
 public class InterfazAgregarController implements Initializable {
-
+      @FXML private AnchorPane anchor;
+      @FXML private Label lb;
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+     AnchorPane anchor;
+          
+         
+        
     }    
     
 }
