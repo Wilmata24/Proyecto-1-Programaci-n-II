@@ -30,7 +30,7 @@ public class InterfazAgregarController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
      AnchorPane anchor;
-          
+         //Hola 
          
         
     }    
